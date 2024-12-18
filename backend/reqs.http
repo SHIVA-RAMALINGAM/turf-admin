@@ -1,0 +1,12 @@
+POST http://localhost:8081/turf/addTurf
+Content-Type: application/json
+
+{
+  "breadth": 20.5,
+  "location": "New Location",
+  "mobilenumber": 1234567890,
+  "price": 1500,
+  "turfname": "Turf 1",
+  "width": 15.2,
+  "sports": "football"
+}
